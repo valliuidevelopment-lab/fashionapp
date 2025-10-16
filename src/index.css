@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.card-customize{
+  object-fit: cover;
+  
+}
+.main-conttent-area{
+  background: #000000;
+    color: #fff;
+}
+.main-conttent-area .reset-btn{
+background-color: #000000;
+color: #fff;
+}
+
+input[type="search"] {
+  background: #1b1a1a;
+    border: 1px solid transparent !important;
+    box-shadow: 0px 6px 0px 2px rgba(0, 0, 0, 0.5);
+    height: 52px;
+    border-radius: 0px !important;
+        width: 100%;
+}
+
+.card-customize-area{
+  width:32% !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+ .card-customize-area{
+  width:100% !important;
+}
+}
